@@ -50,7 +50,7 @@ GEM
     cool.io (1.9.0)
     csv (3.3.3)
     date (3.4.1)
-    digest-crc (0.6.5)
+    digest-crc (0.7.0)
       rake (>= 12.0.0, < 14.0.0)
     docker-api (2.4.0)
       excon (>= 0.64.0)
@@ -93,7 +93,8 @@ GEM
     fluent-plugin-input-gelf (0.3.2)
       fluentd (>= 0.14.10, < 2)
       gelfd2 (>= 0.3.0)
-    fluent-plugin-kafka (0.19.3)
+    fluent-plugin-kafka (0.19.4)
+      bigdecimal (~> 3.1)
       fluentd (>= 0.10.58, < 2)
       ltsv
       ruby-kafka (>= 1.5.0, < 2)
