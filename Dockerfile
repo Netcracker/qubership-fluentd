@@ -1,4 +1,5 @@
-FROM fluent/fluentd:v1.18.0-debian-1.0
+# hadolint global ignore=DL3002,DL3008
+FROM fluent/fluentd:v1.18.0-debian-1.2
 
 ENV GEM_HOME="/fluentd/vendor/bundle/ruby/3.2.0" \
     BUNDLE_VERSION="2.5.22"
@@ -91,4 +92,4 @@ RUN \
 
 EXPOSE 24220 24224 24231
 
-CMD /fluentd/entrypoint.sh
+CMD ["/fluentd/entrypoint.sh"]
