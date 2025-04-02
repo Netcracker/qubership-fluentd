@@ -207,7 +207,7 @@ GEM
       uri
     net-http-persistent (4.0.5)
       connection_pool (~> 2.2)
-    net-imap (0.4.18)
+    net-imap (0.4.19)
       date
       net-protocol
     net-pop (0.1.2)
@@ -271,7 +271,7 @@ GEM
     syslog_protocol (0.9.2)
     systemd-journal (2.1.0)
       ffi (~> 1.9)
-    timeout (0.4.2)
+    timeout (0.4.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2025.2)
