@@ -235,7 +235,7 @@ GEM
       base64
     proxifier (1.0.3)
     public_suffix (6.0.1)
-    rack (3.1.14)
+    rack (3.1.16)
     rack-oauth2 (1.21.3)
       activesupport
       attr_required
