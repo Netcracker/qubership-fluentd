@@ -57,7 +57,7 @@ GEM
       multi_json
     domain_name (0.6.20240107)
     drb (2.2.3)
-    excon (1.2.7)
+    excon (1.2.8)
       logger
     faraday (2.12.2)
       faraday-net_http (>= 2.0, < 3.5)
