@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# FluentD version
+gem 'fluentd', '>= 1.19'
+
 # Plugins dependencies
 gem 'activesupport', '>= 7.0.4.2'
 gem 'docker-api', '>= 2.2.0'
