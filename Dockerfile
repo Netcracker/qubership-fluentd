@@ -1,9 +1,9 @@
 # hadolint global ignore=DL3002,DL3008
 ARG BUILDPLATFORM
-FROM --platform=$BUILDPLATFORM fluent/fluentd:v1.18.0-debian-1.3
+FROM --platform=$BUILDPLATFORM fluent/fluentd:v1.19.0-debian-2.0
 
-ENV GEM_HOME="/fluentd/vendor/bundle/ruby/3.2.0" \
-    BUNDLE_VERSION="2.5.22"
+ENV GEM_HOME="/fluentd/vendor/bundle/ruby/3.4.0" \
+    BUNDLE_VERSION="2.7.1"
 
 ENV GEM_PATH="${GEM_HOME}" \
     PATH="${GEM_HOME}:${PATH}"
@@ -20,14 +20,14 @@ WORKDIR /home/fluent
 
 COPY Gemfile* fluentd/
 
-# Do not split this step because docker create layer per each RUN (or other keyword)
+# Do not split this step because Docker creates a layer for each RUN (or other keyword)
 # and apt-get purge won't work in another layer
 RUN \
   # The base image "fluent/fluentd:v1.18.0-debian-1.0" use the "ruby:3.2-slim-bookworm" as it base image
   # Update tools in the base image to close vulnerabilities
   apt-get update -y \
   && apt-get upgrade -y \
-  # Install build dependencies for build ruby
+  # Install build dependencies for building Ruby
   && buildDeps=" \
       make \
       jq \
