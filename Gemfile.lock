@@ -279,7 +279,7 @@ GEM
       protocol-http (~> 0.47)
     proxifier (1.0.3)
     public_suffix (6.0.2)
-    rack (3.2.1)
+    rack (3.2.3)
     rack-oauth2 (1.21.3)
       activesupport
       attr_required
