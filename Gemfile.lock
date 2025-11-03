@@ -253,7 +253,7 @@ GEM
     net-smtp (0.5.1)
       net-protocol
     netrc (0.11.0)
-    oj (3.16.11)
+    oj (3.16.12)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
     openid_connect (1.1.8)
