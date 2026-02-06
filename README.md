@@ -72,7 +72,7 @@ How to install `ruby`, build locally and update `Gemfile.lock` you can read in t
 
 ### Why do we use a bundler?
 
-Why do we use a `bundler` although the original FluentD docker image installs all dependencies
+Why do we use a `bundler` although the original FluentD Docker image installs all dependencies
 using a simple `gem install ...`?
 
 We are using it to reduce build time, freeze and minimize the list of downloaded dependencies.
