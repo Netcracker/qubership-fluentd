@@ -58,6 +58,7 @@ Output plugins:
 * [fluent-plugin-secure-forward >= 0.4.5](https://github.com/tagomoris/fluent-plugin-secure-forward)
 * [fluent-plugin-splunk-hec >= 1.3.2](https://github.com/splunk/fluent-plugin-splunk-hec)
 * [fluent-plugin-syslog_rfc5424 >= 0.8.0](https://github.com/cloudfoundry/fluent-plugin-syslog_rfc5424)
+* [fluent-plugin-opentelemetry >= 0.1.0](https://github.com/fluent-plugins-nursery/fluent-plugin-opentelemetry)
 
 ## Contribute
 
