@@ -70,7 +70,7 @@ GEM
       fiber-annotation
       fiber-local (~> 1.1)
       json
-    cool.io (1.9.1)
+    cool.io (1.9.3)
     csv (3.3.5)
     date (3.5.1)
     digest-crc (0.7.0)
@@ -131,7 +131,7 @@ GEM
       sin_lru_redux
     fluent-plugin-multi-format-parser (1.1.0)
       fluentd (>= 0.14.0, < 2)
-    fluent-plugin-opentelemetry (0.5.0)
+    fluent-plugin-opentelemetry (0.5.1)
       async-http (~> 0.88)
       excon (~> 1.2)
       fluentd (~> 1.18)
