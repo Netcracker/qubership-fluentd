@@ -58,6 +58,7 @@ Output plugins:
 * [fluent-plugin-secure-forward >= 0.4.5](https://github.com/tagomoris/fluent-plugin-secure-forward)
 * [fluent-plugin-splunk-hec >= 1.3.2](https://github.com/splunk/fluent-plugin-splunk-hec)
 * [fluent-plugin-syslog_rfc5424 >= 0.8.0](https://github.com/cloudfoundry/fluent-plugin-syslog_rfc5424)
+* [fluent-plugin-opentelemetry >= 0.1.0](https://github.com/fluent-plugins-nursery/fluent-plugin-opentelemetry)
 
 ## Contribute
 
@@ -71,7 +72,7 @@ How to install `ruby`, build locally and update `Gemfile.lock` you can read in t
 
 ### Why do we use a bundler?
 
-Why do we use a `bundler` although the original FluentD docker image installs all dependencies
+Why do we use a `bundler` although the original FluentD Docker image installs all dependencies
 using a simple `gem install ...`?
 
 We are using it to reduce build time, freeze and minimize the list of downloaded dependencies.
