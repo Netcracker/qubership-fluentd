@@ -66,7 +66,7 @@ GEM
     bindata (2.5.1)
     concurrent-ruby (1.3.6)
     connection_pool (3.0.2)
-    console (1.34.2)
+    console (1.34.3)
       fiber-annotation
       fiber-local (~> 1.1)
       json
@@ -82,7 +82,7 @@ GEM
     drb (2.2.3)
     excon (1.3.2)
       logger
-    faraday (2.14.0)
+    faraday (2.14.1)
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
@@ -170,7 +170,7 @@ GEM
     fluent-plugin-systemd (1.1.1)
       fluentd (>= 0.14.11, < 2)
       systemd-journal (~> 2.1.0)
-    fluentd (1.19.1)
+    fluentd (1.19.2)
       async-http (~> 0.86)
       base64 (~> 0.2)
       bundler
@@ -180,12 +180,14 @@ GEM
       http_parser.rb (>= 0.5.1, < 0.9.0)
       logger (~> 1.6)
       msgpack (>= 1.3.1, < 2.0.0)
+      net-http (~> 0.8)
+      ostruct (~> 0.6)
       serverengine (>= 2.3.2, < 3.0.0)
       sigdump (~> 0.2.5)
       strptime (>= 0.2.4, < 1.0.0)
       tzinfo (>= 1.0, < 3.0)
       tzinfo-data (~> 1.0)
-      uri (~> 1.0, < 1.1.0)
+      uri (~> 1.0)
       webrick (~> 1.4)
       yajl-ruby (~> 1.0)
       zstd-ruby (~> 1.5)
@@ -260,7 +262,7 @@ GEM
       uri (>= 0.11.1)
     net-http-persistent (4.0.8)
       connection_pool (>= 2.2.4, < 4)
-    net-imap (0.6.2)
+    net-imap (0.6.3)
       date
       net-protocol
     net-pop (0.1.2)
@@ -341,7 +343,7 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2025.3)
       tzinfo (>= 1.0.0)
-    uri (1.0.4)
+    uri (1.1.1)
     validate_email (0.1.6)
       activemodel (>= 3.0)
       mail (>= 2.2.5)
