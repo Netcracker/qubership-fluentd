@@ -29,7 +29,7 @@ gem 'fluent-plugin-rewrite-tag-filter', '>= 2.4.0'
 
 # Output FluentD plugins
 gem 'fluent-plugin-gelf-hs', '>= 1.0.8'
-gem 'fluent-plugin-grafana-loki', '~> 1.0'
+gem 'fluent-plugin-grafana-loki', '~> 1.3'
 gem 'fluent-plugin-kafka', '>= 0.19.1'
 gem 'fluent-plugin-prometheus', '>= 2.0.3'
 gem 'fluent-plugin-remote_syslog', '>= 1.1.0'
