@@ -101,7 +101,7 @@ GEM
     fiber-storage (1.0.1)
     fluent-config-regexp-type (1.0.0)
       fluentd (> 1.0.0, < 2)
-    fluent-plugin-concat (2.6.0)
+    fluent-plugin-concat (2.6.1)
       fluentd (>= 0.14.0, < 2)
     fluent-plugin-detect-exceptions (0.0.16)
       fluentd (>= 1.14.2)
