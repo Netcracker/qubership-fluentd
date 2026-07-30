@@ -4,8 +4,5 @@
     "github>Netcracker/renovate-config:base",
     "github>Netcracker/renovate-config:github-actions",
     "github>Netcracker/renovate-config:netcracker-dependencies"
-  ],
-  "schedule": [
-    "every 3 weeks on Monday"
   ]
 }
