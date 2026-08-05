@@ -34,6 +34,9 @@ RUN \
       gcc \
       g++ \
       libc-dev \
+      # Required to build the "openssl" gem native extension (pulled in by io-stream)
+      libssl-dev \
+      pkg-config \
       wget \
       bzip2 \
       gnupg \
