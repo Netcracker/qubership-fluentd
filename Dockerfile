@@ -1,9 +1,9 @@
 # hadolint global ignore=DL3002,DL3008
 ARG BUILDPLATFORM
-FROM --platform=$BUILDPLATFORM fluent/fluentd:v1.19.1-debian-2.1@sha256:2c6dde18e0ece8c04b06a260b998b8cc2b8e4a4874f48a65d593ff24a9c537a3
+FROM --platform=$BUILDPLATFORM fluent/fluentd:v1.19.3-debian@sha256:13ba7ec2fa8fe9141e905c31c1d0043abeb3f364bb02fec6618d45374fe10ea3
 
 ENV GEM_HOME="/fluentd/vendor/bundle/ruby/3.4.0" \
-    BUNDLE_VERSION="2.7.1"
+    BUNDLE_VERSION="4.0.18"
 
 ENV GEM_PATH="${GEM_HOME}" \
     PATH="${GEM_HOME}:${PATH}"
@@ -34,6 +34,9 @@ RUN \
       gcc \
       g++ \
       libc-dev \
+      # Required to build the "openssl" gem native extension (pulled in by io-stream)
+      libssl-dev \
+      pkg-config \
       wget \
       bzip2 \
       gnupg \

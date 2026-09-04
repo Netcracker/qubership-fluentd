@@ -1,12 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices"
-  ],
-  "labels": [
-    "dependencies"
-  ],
-  "schedule": [
-    "every 3 weeks on Monday"
+    "github>Netcracker/renovate-config:base",
+    "github>Netcracker/renovate-config:github-actions",
+    "github>Netcracker/renovate-config:netcracker-dependencies"
   ]
 }
