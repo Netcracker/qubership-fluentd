@@ -19,8 +19,8 @@ sh -n /fluentd/entrypoint.sh
 fluentd --dry-run -c "${smoke_conf}" -p /fluentd/plugins
 
 if ! command -v timeout >/dev/null 2>&1; then
-  echo "timeout is unavailable; skipped entrypoint start check"
-  exit 0
+    echo "timeout is unavailable; skipped entrypoint start check"
+    exit 0
 fi
 
 set +e
@@ -29,8 +29,8 @@ status=$?
 set -e
 
 if [ "${status}" -eq 124 ] || [ "${status}" -eq 0 ]; then
-  echo "entrypoint started fluentd (status ${status})"
-  exit 0
+    echo "entrypoint started fluentd (status ${status})"
+    exit 0
 fi
 
 echo "entrypoint failed (status ${status})" >&2
