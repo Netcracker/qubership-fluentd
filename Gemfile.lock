@@ -142,7 +142,7 @@ GEM
     fluent-plugin-remote_syslog (1.1.0)
       fluentd
       remote_syslog_sender (>= 1.1.1)
-    fluent-plugin-rewrite-tag-filter (2.4.0)
+    fluent-plugin-rewrite-tag-filter (2.4.1)
       fluent-config-regexp-type
       fluentd (>= 0.14.2, < 2)
     fluent-plugin-s3 (1.8.6)
@@ -219,7 +219,7 @@ GEM
     io-stream (0.14.0)
       openssl (>= 3.3)
     jmespath (1.6.2)
-    json (3.0.0)
+    json (3.0.2)
     json-jwt (1.15.3.1)
       activesupport (>= 4.2)
       aes_key_wrap
@@ -253,7 +253,7 @@ GEM
     minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
-    msgpack (1.8.4)
+    msgpack (1.8.5)
     multi_json (1.21.1)
     mutex_m (0.3.0)
     net-http (0.9.1)
@@ -339,7 +339,7 @@ GEM
     timeout (0.6.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2026.3)
+    tzinfo-data (1.2026.4)
       tzinfo (>= 1.0.0)
     uri (1.1.1)
     validate_email (0.1.6)
