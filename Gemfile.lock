@@ -163,10 +163,10 @@ GEM
       rack-oauth2 (~> 1.19)
     fluent-plugin-syslog_rfc5424 (0.8.0)
       fluentd (~> 1.7)
-    fluent-plugin-systemd (1.1.1)
+    fluent-plugin-systemd (1.1.2)
       fluentd (>= 0.14.11, < 2)
       systemd-journal (~> 2.1.0)
-    fluentd (1.19.3)
+    fluentd (1.19.4)
       async-http (~> 0.86)
       base64 (~> 0.2)
       bundler
