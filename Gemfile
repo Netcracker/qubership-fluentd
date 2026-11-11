@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # FluentD version
-gem 'fluentd', '>= 1.19'
+gem 'fluentd', '~> 1.19.4'
 
 # Plugins dependencies
 gem 'activesupport', '>= 7.0.4.2'
@@ -12,6 +12,7 @@ gem 'jsonpath', '>= 1.1.2'
 gem 'logfmt', '>= 0.0.10'
 gem 'lru_redux', '>= 1.1.0'
 gem 'oj', '>= 3.15.0'
+gem 'yajl-ruby', '>= 1.4.3'
 
 # Input FluentD plugins
 gem 'fluent-plugin-input-gelf', '>= 0.3.2'
