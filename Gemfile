@@ -12,6 +12,7 @@ gem 'jsonpath', '>= 1.1.2'
 gem 'logfmt', '>= 0.0.10'
 gem 'lru_redux', '>= 1.1.0'
 gem 'oj', '>= 3.15.0'
+gem 'yajl-ruby', '>= 1.4.3'
 
 # Input FluentD plugins
 gem 'fluent-plugin-input-gelf', '>= 0.3.2'
