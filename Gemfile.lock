@@ -166,7 +166,7 @@ GEM
     fluent-plugin-systemd (1.1.2)
       fluentd (>= 0.14.11, < 2)
       systemd-journal (~> 2.1.0)
-    fluentd (1.20.1)
+    fluentd (1.19.4)
       async-http (~> 0.86)
       base64 (~> 0.2)
       bundler
@@ -174,7 +174,6 @@ GEM
       csv (~> 3.2)
       drb (~> 2.2)
       http_parser.rb (>= 0.5.1, < 0.9.0)
-      json (>= 2.21)
       logger (~> 1.6)
       msgpack (>= 1.3.1, < 2.0.0)
       net-http (~> 0.8)
@@ -186,6 +185,7 @@ GEM
       tzinfo-data (~> 1.0)
       uri (~> 1.0)
       webrick (~> 1.4)
+      yajl-ruby (~> 1.0)
       zstd-ruby (~> 1.5)
     gelf (3.1.0)
       json
@@ -354,6 +354,7 @@ GEM
       faraday (~> 2.0)
       faraday-follow_redirects
     webrick (1.9.2)
+    yajl-ruby (1.4.3)
     zstd-ruby (1.5.7.1)
 
 PLATFORMS
@@ -384,12 +385,13 @@ DEPENDENCIES
   fluent-plugin-splunk-hec (>= 1.3.2)
   fluent-plugin-syslog_rfc5424 (>= 0.8.0)
   fluent-plugin-systemd (>= 1.0.5)
-  fluentd (>= 1.19)
+  fluentd (~> 1.19.4)
   gelf (>= 3.1.0)
   jsonpath (>= 1.1.2)
   logfmt (>= 0.0.10)
   lru_redux (>= 1.1.0)
   oj (>= 3.15.0)
+  yajl-ruby (>= 1.4.3)
 
 BUNDLED WITH
    2.7.1
