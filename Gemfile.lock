@@ -354,6 +354,7 @@ GEM
       faraday (~> 2.0)
       faraday-follow_redirects
     webrick (1.9.2)
+    yajl-ruby (1.4.3)
     zstd-ruby (1.5.7.1)
 
 PLATFORMS
@@ -390,6 +391,7 @@ DEPENDENCIES
   logfmt (>= 0.0.10)
   lru_redux (>= 1.1.0)
   oj (>= 3.15.0)
+  yajl-ruby (>= 1.4.3)
 
 BUNDLED WITH
    2.7.1
