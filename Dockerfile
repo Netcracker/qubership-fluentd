@@ -1,6 +1,6 @@
 # hadolint global ignore=DL3002,DL3008
 ARG BUILDPLATFORM
-FROM --platform=$BUILDPLATFORM fluent/fluentd:v1.20.1-debian@sha256:25cf11fc20e20ba8cda58e4bd8a1117da25cb16fbfe46ee560f11b96dcdfb7eb
+FROM --platform=$BUILDPLATFORM fluent/fluentd:v1.20.1-debian@sha256:dc29a865e58e563160c3b5ae209f0372470991f24226ed78e3896103090262fe
 
 ENV GEM_HOME="/fluentd/vendor/bundle/ruby/3.4.0" \
     BUNDLE_VERSION="4.0.18"
