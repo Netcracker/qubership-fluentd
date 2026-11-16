@@ -14,7 +14,8 @@ name: Lint Code Base
 on:
   push:
     branches:
-      - '**'
+      - main
+      - release/1.19
   pull_request:
     branches:
       - '**'
