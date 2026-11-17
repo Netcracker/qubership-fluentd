@@ -7,7 +7,8 @@ on:
     types: [created]
   push:
     branches:
-    - '**'
+    - main
+    - "release/**"
     paths-ignore:
     - '.github/**'
     - 'docs/**'
