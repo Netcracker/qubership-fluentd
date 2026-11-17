@@ -3,12 +3,12 @@ name: Link Checker
 
 on:
   push:
-    branches: [main, release/1.19]
+    branches: [main, "release/**"]
     tags: ['**']
   repository_dispatch: null
   workflow_dispatch: null
   pull_request:
-    branches: [main, release/1.19]
+    branches: [main, "release/**"]
     types:
       [opened, reopened, synchronize]
 permissions:

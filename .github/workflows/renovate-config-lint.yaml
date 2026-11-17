@@ -2,7 +2,7 @@ name: Validate Renovate Config
 
 on:
   push:
-    branches: [main, release/1.19]
+    branches: [main, "release/**"]
     tags: ['**']
     paths:
       - renovate.json
